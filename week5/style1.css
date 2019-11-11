@@ -1,0 +1,79 @@
+body{
+  background-image: url("https://images.wallpaperscraft.com/image/plane_sky_flight_138082_1280x720.jpg");
+  background-size: 1366px 667px;
+}
+#matrix{
+  display:flex;
+  width:300px;
+  height: 300px;  
+  flex-wrap:wrap;
+  position: relative;
+  left: 3%;
+}
+#matrix input{
+  width:80px;
+  padding:5px;
+  font-size:24px;
+  text-align: center;
+  font-size: 40px;
+}
+#result{
+  font-size:24px;
+  color:red;
+  position: relative;
+  left: 27%;
+  top: -280px;
+  font-size: 40px;
+
+}
+#determinant{
+  font-size:24px;
+  color:black;
+}
+#first{
+  word-spacing: 1px;
+  font-size: 24px;
+  color:rgb(83, 76, 76);
+}
+p{
+  font-size: 28px;
+  color:rgb(83, 76, 76);
+  position: relative;
+  left: 2%;
+}
+button{
+  position: relative;
+  left: 3%;
+  width: 280px;
+  height: 35px;
+  background-color: white;
+  border-left-color: red;
+  
+
+}
+#definition{
+  position: relative;
+  left: 27%;
+  top: -150px;
+  font-size: 20px;
+  color: rgb(83, 76, 76);
+}
+#ResultText{
+  border: solid black;
+  background-color: rgb(5, 5, 5);
+  width: 70px;
+  border-radius: 7px;
+  color: white;
+  position: relative;
+  left: 27%;
+  top: -300px; 
+  font-size: 20px; 
+  text-align: center;
+}
+#solution{
+  position: relative;
+  left: 27%;
+  top: -250px;
+  font-size: 24px;
+  color: rgb(83, 76, 76);
+}
